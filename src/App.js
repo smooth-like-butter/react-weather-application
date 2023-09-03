@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Weather App</h1>
+      <h2>
+        This is so fucking stupid that I can't stand it. I hate learning web
+        development from SheCodes
+      </h2>
+      <footer>
+        This project was created by Stephanie Schatz and is{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/smooth-like-butter/react-weather-application"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          open-sourced.
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
 
-export default App;
+
