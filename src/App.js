@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-    
         <Weather defaultCity="New York" />
 
         <footer>
@@ -13,7 +12,7 @@ export default function App() {
           <a
             href="https://github.com/smooth-like-butter/react-weather-application"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced.
           </a>
